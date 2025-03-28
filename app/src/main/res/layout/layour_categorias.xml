@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridCategorias"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:layout_marginTop="16dp"
+    android:alignmentMode="alignMargins"
+    android:rowOrderPreserved="false">
+
+    <!-- Categoría: Música -->
+    <Button
+        android:id="@+id/btnMusica"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:text="🎵 Música"
+        android:textSize="18sp"
+        android:backgroundTint="#FFBB86FC"
+        android:textColor="#FFFFFF" />
+
+    <!-- Categoría: Deportes -->
+    <Button
+        android:id="@+id/btnDeportes"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:text="🏀 Deportes"
+        android:textSize="18sp"
+        android:backgroundTint="#FF6200EE"
+        android:textColor="#FFFFFF" />
+
+    <!-- Categoría: Cocina -->
+    <Button
+        android:id="@+id/btnCocina"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:text="🍳 Cocina"
+        android:textSize="18sp"
+        android:backgroundTint="#FFA726"
+        android:textColor="#FFFFFF" />
+
+    <!-- Categoría: Académico -->
+    <Button
+        android:id="@+id/btnAcademico"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:text="📚 Académico"
+        android:textSize="18sp"
+        android:backgroundTint="#66BB6A"
+        android:textColor="#FFFFFF" />
+
+    <!-- Categoría: Plomería -->
+    <Button
+        android:id="@+id/btnServicios"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:text="🔧 Servicios"
+        android:textSize="18sp"
+        android:backgroundTint="#29B6F6"
+        android:textColor="#FFFFFF" />
+
+    <!-- Categoría: Asesorías -->
+    <Button
+        android:id="@+id/btnAsesorias"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:text="💼 Asesorías"
+        android:textSize="18sp"
+        android:backgroundTint="#8E24AA"
+        android:textColor="#FFFFFF" />
+
+    <!-- Categoría: Idiomas -->
+    <Button
+        android:id="@+id/btnIdiomas"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:text="🌍 Idiomas"
+        android:textSize="18sp"
+        android:backgroundTint="#7E57C2"
+        android:textColor="#FFFFFF" />
+
+    <!-- Categoría: Tecnología -->
+    <Button
+        android:id="@+id/btnTecnologia"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:text="💻 Tecnología"
+        android:textSize="18sp"
+        android:backgroundTint="#455A64"
+        android:textColor="#FFFFFF" />
+</GridLayout>
