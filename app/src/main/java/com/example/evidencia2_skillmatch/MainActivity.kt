@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             if (usuarios.isEmpty()) {
                 viewModel.insertUser(User(
                     firstName = "Eugenio",
-                    lastName = "Macías",
+                    lastName = "Macías orozco",
                     age = 22,
                     skillsToLearn = "guitarra, canto",
                     skillsToTeach = "piano"
